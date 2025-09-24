@@ -1,0 +1,21 @@
+filebeat.inputs:
+  - type: filestream
+    id: my-auth-id
+    paths:
+      - ./logs/auth.log
+  - type: filestream
+    id: my-boot-id
+    paths:
+      - ./logs/boot.log
+
+# filebeat.modules:
+#   - module: postgresql
+#     log:
+#       enabled: true
+#       var:
+#         paths: ["/var/log/postgres/*.log*"]
+
+output.logstash:
+  hosts: ["logstash:5044"]
+
+setup.kibana.host: kibana:5601

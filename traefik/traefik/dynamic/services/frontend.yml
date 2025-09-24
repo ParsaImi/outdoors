@@ -1,0 +1,18 @@
+http:
+  routers:
+    # frontend router
+    frontend:
+      rule: "Host(`react.myapp`)"
+      entryPoints:
+        - websecure
+      service: frontend-service
+      middlewares:
+        - security-headers
+      tls: {}
+
+  services:
+    # frontend service
+    frontend-service:
+      loadBalancer:
+        servers:
+          - url: "http://frontend"

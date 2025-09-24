@@ -1,0 +1,36 @@
+version: "3.8"
+services:
+  nginx:
+    image: nginx
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./ssl:/etc/nginx/ssl
+    restart: unless-stopped
+    networks:
+      - nginx-network
+    depends_on:
+      - nexus
+  nexus:
+    image: sonatype/nexus3
+    container_name: nexus-repositroy
+    ports:
+      - "8081:8081"
+      - "8082:8082"
+    environment:
+      - INSTALL4J_ADD_VM_PARAMS=-Xms2g -Xmx2g -XX:MaxDirectMemorySize=3g
+    volumes:
+      - "nexus-data:/nexus-data"
+    networks:
+      - nginx-network
+
+volumes:
+  nexus-data:
+
+networks:
+  nginx-network:
+    driver: bridge

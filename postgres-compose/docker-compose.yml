@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./postgres/postgresql.conf:/etc/postgresql/postgresql.conf
+      - psql-data:/var/lib/postgresql/data
+    networks:
+      - monitoring-network
+    command: |
+      postgres
+      -c max_connections=300
+      -c shared_buffers=256MB
+      -c effective_cache_size=1GB
+      -c work_mem=8MB
+      -c maintenance_work_mem=128MB
+
+volumes:
+  psql-data:
+
+networks:
+  monitoring-network:
+    external: true

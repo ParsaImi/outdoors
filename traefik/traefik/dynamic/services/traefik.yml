@@ -1,0 +1,10 @@
+http:
+  routers:
+    traefik:
+      rule: "Host(`traefik.myapp`)"
+      entryPoints:
+        - websecure
+      service: api@internal
+      middlewares:
+        - security-headers
+      tls: {}

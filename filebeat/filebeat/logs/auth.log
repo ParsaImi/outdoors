@@ -1,0 +1,855 @@
+2025-09-21T08:58:29.104959+03:30 admin-HP gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-09-21T08:58:29.123264+03:30 admin-HP systemd-logind[768]: New session c1 of user gdm.
+2025-09-21T08:58:29.145467+03:30 admin-HP (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-09-21T08:58:30.899676+03:30 admin-HP polkitd[748]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-21T08:58:48.372388+03:30 admin-HP gdm-password]: gkr-pam: unable to locate daemon control file
+2025-09-21T08:58:48.372512+03:30 admin-HP gdm-password]: gkr-pam: stashed password to try later in open session
+2025-09-21T08:58:48.379685+03:30 admin-HP gdm-password]: pam_unix(gdm-password:session): session opened for user parsaimani(uid=1001) by parsaimani(uid=0)
+2025-09-21T08:58:48.392269+03:30 admin-HP systemd-logind[768]: New session 2 of user parsaimani.
+2025-09-21T08:58:48.408959+03:30 admin-HP (systemd): pam_unix(systemd-user:session): session opened for user parsaimani(uid=1001) by parsaimani(uid=0)
+2025-09-21T08:58:48.656930+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-21T08:58:49.117356+03:30 admin-HP gnome-keyring-daemon[2910]: discover_other_daemon: 1
+2025-09-21T08:58:49.117424+03:30 admin-HP gnome-keyring-daemon[2702]: The Secret Service was already initialized
+2025-09-21T08:58:49.117696+03:30 admin-HP gnome-keyring-daemon[2914]: discover_other_daemon: 1
+2025-09-21T08:58:49.120912+03:30 admin-HP gnome-keyring-daemon[2702]: The PKCS#11 component was already initialized
+2025-09-21T08:58:49.121189+03:30 admin-HP gnome-keyring-daemon[2917]: discover_other_daemon: 1
+2025-09-21T08:58:50.404822+03:30 admin-HP polkitd[748]: Registered Authentication Agent for unix-session:2 (system bus name :1.97 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-21T08:58:51.345337+03:30 admin-HP gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-09-21T08:58:51.361178+03:30 admin-HP systemd-logind[768]: Session c1 logged out. Waiting for processes to exit.
+2025-09-21T08:58:51.369587+03:30 admin-HP polkitd[748]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-09-21T08:58:51.381784+03:30 admin-HP systemd-logind[768]: Removed session c1.
+2025-09-21T08:59:01.497290+03:30 admin-HP (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-09-21T08:59:52.468696+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-21T08:59:52.469672+03:30 admin-HP pkexec[3720]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-21T09:00:37.151680+03:30 admin-HP dbus-daemon[740]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-09-21T09:05:01.834201+03:30 admin-HP CRON[5192]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T09:05:01.843279+03:30 admin-HP CRON[5192]: pam_unix(cron:session): session closed for user root
+2025-09-21T09:15:01.856263+03:30 admin-HP CRON[6156]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T09:15:01.863320+03:30 admin-HP CRON[6156]: pam_unix(cron:session): session closed for user root
+2025-09-21T09:17:01.872137+03:30 admin-HP CRON[6420]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T09:17:01.875373+03:30 admin-HP CRON[6420]: pam_unix(cron:session): session closed for user root
+2025-09-21T09:25:01.881134+03:30 admin-HP CRON[7162]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T09:25:01.883488+03:30 admin-HP CRON[7162]: pam_unix(cron:session): session closed for user root
+2025-09-21T09:26:51.480863+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-21T09:26:51.481882+03:30 admin-HP pkexec[7726]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-21T09:30:01.889609+03:30 admin-HP CRON[8427]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T09:30:01.891462+03:30 admin-HP CRON[8427]: pam_unix(cron:session): session closed for user root
+2025-09-21T09:35:01.899968+03:30 admin-HP CRON[10564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T09:35:01.902368+03:30 admin-HP CRON[10564]: pam_unix(cron:session): session closed for user root
+2025-09-21T09:45:01.912568+03:30 admin-HP CRON[11793]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T09:45:01.914755+03:30 admin-HP CRON[11793]: pam_unix(cron:session): session closed for user root
+2025-09-21T09:55:01.926053+03:30 admin-HP CRON[12842]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T09:55:01.932431+03:30 admin-HP CRON[12842]: pam_unix(cron:session): session closed for user root
+2025-09-21T10:05:01.944949+03:30 admin-HP CRON[13837]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T10:05:01.951148+03:30 admin-HP CRON[13837]: pam_unix(cron:session): session closed for user root
+2025-09-21T10:15:01.957888+03:30 admin-HP CRON[14592]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T10:15:01.959923+03:30 admin-HP CRON[14592]: pam_unix(cron:session): session closed for user root
+2025-09-21T10:17:01.970385+03:30 admin-HP CRON[14740]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T10:17:01.976911+03:30 admin-HP CRON[14740]: pam_unix(cron:session): session closed for user root
+2025-09-21T10:25:01.987557+03:30 admin-HP CRON[18022]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T10:25:01.995588+03:30 admin-HP CRON[18022]: pam_unix(cron:session): session closed for user root
+2025-09-21T10:30:02.005543+03:30 admin-HP CRON[20382]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T10:30:02.007331+03:30 admin-HP CRON[20382]: pam_unix(cron:session): session closed for user root
+2025-09-21T10:35:01.017170+03:30 admin-HP CRON[20739]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T10:35:01.028380+03:30 admin-HP CRON[20739]: pam_unix(cron:session): session closed for user root
+2025-09-21T10:45:01.034025+03:30 admin-HP CRON[22973]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T10:45:01.036222+03:30 admin-HP CRON[22973]: pam_unix(cron:session): session closed for user root
+2025-09-21T10:55:01.043164+03:30 admin-HP CRON[23772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T10:55:01.045756+03:30 admin-HP CRON[23772]: pam_unix(cron:session): session closed for user root
+2025-09-21T11:00:40.328780+03:30 admin-HP polkitd[748]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-09-21T11:00:43.237326+03:30 admin-HP polkitd[748]: Operator of unix-session:2 successfully authenticated as unix-user:parsaimani to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:24446:733623 [/bin/bash /usr/local/bin/hiddify-root] (owned by unix-user:parsaimani)
+2025-09-21T11:00:43.239749+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-21T11:00:43.240763+03:30 admin-HP pkexec[24450]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/bin/env DISPLAY=:0 WAYLAND_DISPLAY=wayland-0 XDG_SESSION_TYPE=wayland XDG_RUNTIME_DIR=/run/user/1001 hiddify]
+2025-09-21T11:01:44.674734+03:30 admin-HP sudo: parsaimani : TTY=pts/6 ; PWD=/home/parsaimani/monitoring ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-21T11:01:44.675216+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-21T11:01:44.715422+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-21T11:05:01.055295+03:30 admin-HP CRON[25881]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T11:05:01.057797+03:30 admin-HP CRON[25881]: pam_unix(cron:session): session closed for user root
+2025-09-21T11:15:01.068994+03:30 admin-HP CRON[27753]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T11:15:01.071101+03:30 admin-HP CRON[27753]: pam_unix(cron:session): session closed for user root
+2025-09-21T11:17:01.080698+03:30 admin-HP CRON[28164]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T11:17:01.088594+03:30 admin-HP CRON[28164]: pam_unix(cron:session): session closed for user root
+2025-09-21T11:25:01.101057+03:30 admin-HP CRON[29461]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T11:25:01.107855+03:30 admin-HP CRON[29461]: pam_unix(cron:session): session closed for user root
+2025-09-21T11:30:01.118133+03:30 admin-HP CRON[30871]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T11:30:01.119554+03:30 admin-HP CRON[30871]: pam_unix(cron:session): session closed for user root
+2025-09-21T11:35:01.128252+03:30 admin-HP CRON[32141]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T11:35:01.142077+03:30 admin-HP CRON[32141]: pam_unix(cron:session): session closed for user root
+2025-09-21T11:45:01.139798+03:30 admin-HP CRON[33557]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T11:45:01.142053+03:30 admin-HP CRON[33557]: pam_unix(cron:session): session closed for user root
+2025-09-21T11:48:06.380152+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-21T11:55:01.151962+03:30 admin-HP CRON[35025]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T11:55:01.154476+03:30 admin-HP CRON[35025]: pam_unix(cron:session): session closed for user root
+2025-09-21T12:05:01.163875+03:30 admin-HP CRON[37473]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T12:05:01.166257+03:30 admin-HP CRON[37473]: pam_unix(cron:session): session closed for user root
+2025-09-21T12:15:01.171943+03:30 admin-HP CRON[39057]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T12:15:01.174216+03:30 admin-HP CRON[39057]: pam_unix(cron:session): session closed for user root
+2025-09-21T12:17:01.182332+03:30 admin-HP CRON[39200]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T12:17:01.194788+03:30 admin-HP CRON[39200]: pam_unix(cron:session): session closed for user root
+2025-09-21T12:25:01.193827+03:30 admin-HP CRON[39943]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T12:25:01.196059+03:30 admin-HP CRON[39943]: pam_unix(cron:session): session closed for user root
+2025-09-21T12:30:01.203643+03:30 admin-HP CRON[40458]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T12:30:01.207354+03:30 admin-HP CRON[40458]: pam_unix(cron:session): session closed for user root
+2025-09-21T12:35:01.217301+03:30 admin-HP CRON[41257]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T12:35:01.220561+03:30 admin-HP CRON[41257]: pam_unix(cron:session): session closed for user root
+2025-09-21T12:37:17.369755+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/complete-project/Notes-Application/frontend ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-21T12:37:17.370586+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-21T12:37:17.406576+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-21T12:45:01.231205+03:30 admin-HP CRON[42945]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T12:45:01.237995+03:30 admin-HP CRON[42945]: pam_unix(cron:session): session closed for user root
+2025-09-21T12:50:01.224839+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/complete-project/Notes-Application/frontend ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-21T12:50:01.226082+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-21T12:50:01.265257+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-21T12:55:01.258187+03:30 admin-HP CRON[45467]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T12:55:01.264543+03:30 admin-HP CRON[45467]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:05:01.277593+03:30 admin-HP CRON[47997]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T13:05:01.284499+03:30 admin-HP CRON[47997]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:15:01.295989+03:30 admin-HP CRON[50260]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T13:15:01.298186+03:30 admin-HP CRON[50260]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:17:01.305718+03:30 admin-HP CRON[50445]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T13:17:01.308824+03:30 admin-HP CRON[50445]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:25:01.316089+03:30 admin-HP CRON[52172]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T13:25:01.318957+03:30 admin-HP CRON[52172]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:30:01.327325+03:30 admin-HP CRON[52767]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T13:30:01.333855+03:30 admin-HP CRON[52767]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:35:01.337808+03:30 admin-HP CRON[53121]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T13:35:01.346489+03:30 admin-HP CRON[53121]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:45:01.350446+03:30 admin-HP CRON[53689]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T13:45:01.352766+03:30 admin-HP CRON[53689]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:55:01.362880+03:30 admin-HP CRON[54256]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T13:55:01.365196+03:30 admin-HP CRON[54256]: pam_unix(cron:session): session closed for user root
+2025-09-21T13:57:48.330006+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-21T14:05:01.372042+03:30 admin-HP CRON[55149]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T14:05:01.374941+03:30 admin-HP CRON[55149]: pam_unix(cron:session): session closed for user root
+2025-09-21T14:15:01.387780+03:30 admin-HP CRON[57368]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T14:15:01.394153+03:30 admin-HP CRON[57368]: pam_unix(cron:session): session closed for user root
+2025-09-21T14:17:01.403220+03:30 admin-HP CRON[57619]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T14:17:01.405583+03:30 admin-HP CRON[57619]: pam_unix(cron:session): session closed for user root
+2025-09-21T14:25:01.415076+03:30 admin-HP CRON[58531]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T14:25:01.417254+03:30 admin-HP CRON[58531]: pam_unix(cron:session): session closed for user root
+2025-09-21T14:30:01.426234+03:30 admin-HP CRON[58983]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T14:30:01.427947+03:30 admin-HP CRON[58983]: pam_unix(cron:session): session closed for user root
+2025-09-21T14:31:01.052034+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-21T14:35:01.436419+03:30 admin-HP CRON[59885]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T14:35:01.438741+03:30 admin-HP CRON[59885]: pam_unix(cron:session): session closed for user root
+2025-09-21T14:45:01.448986+03:30 admin-HP CRON[60586]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T14:45:01.451099+03:30 admin-HP CRON[60586]: pam_unix(cron:session): session closed for user root
+2025-09-21T14:55:01.462908+03:30 admin-HP CRON[62354]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T14:55:01.469466+03:30 admin-HP CRON[62354]: pam_unix(cron:session): session closed for user root
+2025-09-21T15:05:01.476194+03:30 admin-HP CRON[65832]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T15:05:01.478398+03:30 admin-HP CRON[65832]: pam_unix(cron:session): session closed for user root
+2025-09-21T15:08:19.755151+03:30 admin-HP sudo: parsaimani : TTY=pts/3 ; PWD=/home/parsaimani/postgres-compose ; USER=root ; COMMAND=/usr/bin/su -
+2025-09-21T15:08:19.755611+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-21T15:08:19.761315+03:30 admin-HP su[66185]: (to root) root on pts/8
+2025-09-21T15:08:19.763116+03:30 admin-HP su[66185]: pam_unix(su-l:session): session opened for user root(uid=0) by parsaimani(uid=0)
+2025-09-21T15:15:01.489135+03:30 admin-HP CRON[67364]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T15:15:01.499787+03:30 admin-HP CRON[67364]: pam_unix(cron:session): session closed for user root
+2025-09-21T15:17:01.499254+03:30 admin-HP CRON[67713]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T15:17:01.501543+03:30 admin-HP CRON[67713]: pam_unix(cron:session): session closed for user root
+2025-09-21T15:25:01.509950+03:30 admin-HP CRON[68543]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T15:25:01.512264+03:30 admin-HP CRON[68543]: pam_unix(cron:session): session closed for user root
+2025-09-21T15:30:01.522269+03:30 admin-HP CRON[69098]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T15:30:01.527151+03:30 admin-HP CRON[69098]: pam_unix(cron:session): session closed for user root
+2025-09-21T15:35:01.538797+03:30 admin-HP CRON[69646]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T15:35:01.545542+03:30 admin-HP CRON[69646]: pam_unix(cron:session): session closed for user root
+2025-09-21T15:45:01.556027+03:30 admin-HP CRON[70955]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T15:45:01.567025+03:30 admin-HP CRON[70955]: pam_unix(cron:session): session closed for user root
+2025-09-21T15:55:01.567621+03:30 admin-HP CRON[74239]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T15:55:01.570275+03:30 admin-HP CRON[74239]: pam_unix(cron:session): session closed for user root
+2025-09-21T16:05:01.576502+03:30 admin-HP CRON[77247]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T16:05:01.578926+03:30 admin-HP CRON[77247]: pam_unix(cron:session): session closed for user root
+2025-09-21T16:15:01.589589+03:30 admin-HP CRON[79425]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T16:15:01.593762+03:30 admin-HP CRON[79425]: pam_unix(cron:session): session closed for user root
+2025-09-21T16:17:01.599688+03:30 admin-HP CRON[79684]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T16:17:01.601980+03:30 admin-HP CRON[79684]: pam_unix(cron:session): session closed for user root
+2025-09-21T16:25:01.611257+03:30 admin-HP CRON[81385]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T16:25:01.613575+03:30 admin-HP CRON[81385]: pam_unix(cron:session): session closed for user root
+2025-09-21T16:30:01.623328+03:30 admin-HP CRON[84900]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T16:30:01.628144+03:30 admin-HP CRON[84900]: pam_unix(cron:session): session closed for user root
+2025-09-21T16:35:01.640316+03:30 admin-HP CRON[86273]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T16:35:01.647345+03:30 admin-HP CRON[86273]: pam_unix(cron:session): session closed for user root
+2025-09-21T16:43:37.757323+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-21T16:45:01.659182+03:30 admin-HP CRON[86993]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T16:45:01.661384+03:30 admin-HP CRON[86993]: pam_unix(cron:session): session closed for user root
+2025-09-21T16:55:01.671261+03:30 admin-HP CRON[87391]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T16:55:01.684127+03:30 admin-HP CRON[87391]: pam_unix(cron:session): session closed for user root
+2025-09-21T17:05:01.679436+03:30 admin-HP CRON[87886]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T17:05:01.681730+03:30 admin-HP CRON[87886]: pam_unix(cron:session): session closed for user root
+2025-09-21T17:15:01.693599+03:30 admin-HP CRON[89058]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T17:15:01.701839+03:30 admin-HP CRON[89058]: pam_unix(cron:session): session closed for user root
+2025-09-21T17:17:01.712912+03:30 admin-HP CRON[89207]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T17:17:01.720812+03:30 admin-HP CRON[89207]: pam_unix(cron:session): session closed for user root
+2025-09-21T17:25:01.732940+03:30 admin-HP CRON[92428]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T17:25:01.740314+03:30 admin-HP CRON[92428]: pam_unix(cron:session): session closed for user root
+2025-09-21T17:30:01.749616+03:30 admin-HP CRON[93508]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-21T17:30:01.751465+03:30 admin-HP CRON[93508]: pam_unix(cron:session): session closed for user root
+2025-09-21T17:32:48.307371+03:30 admin-HP systemd-logind[768]: The system will power off now!
+2025-09-21T17:32:48.353466+03:30 admin-HP systemd-logind[768]: System is powering down.
+2025-09-21T17:32:48.374536+03:30 admin-HP gdm-password]: pam_unix(gdm-password:session): session closed for user parsaimani
+2025-09-22T08:50:21.133238+03:30 admin-HP gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-09-22T08:50:21.146576+03:30 admin-HP systemd-logind[768]: New session c1 of user gdm.
+2025-09-22T08:50:21.171704+03:30 admin-HP (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-09-22T08:50:22.939748+03:30 admin-HP polkitd[751]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-22T08:50:58.549941+03:30 admin-HP gdm-password]: gkr-pam: unable to locate daemon control file
+2025-09-22T08:50:58.550063+03:30 admin-HP gdm-password]: gkr-pam: stashed password to try later in open session
+2025-09-22T08:50:58.558275+03:30 admin-HP gdm-password]: pam_unix(gdm-password:session): session opened for user parsaimani(uid=1001) by parsaimani(uid=0)
+2025-09-22T08:50:58.580950+03:30 admin-HP systemd-logind[768]: New session 2 of user parsaimani.
+2025-09-22T08:50:58.597150+03:30 admin-HP (systemd): pam_unix(systemd-user:session): session opened for user parsaimani(uid=1001) by parsaimani(uid=0)
+2025-09-22T08:50:58.859196+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-22T08:50:59.329720+03:30 admin-HP gnome-keyring-daemon[3339]: discover_other_daemon: 1
+2025-09-22T08:50:59.329812+03:30 admin-HP gnome-keyring-daemon[3125]: The Secret Service was already initialized
+2025-09-22T08:50:59.330079+03:30 admin-HP gnome-keyring-daemon[3342]: discover_other_daemon: 1
+2025-09-22T08:50:59.333354+03:30 admin-HP gnome-keyring-daemon[3125]: The PKCS#11 component was already initialized
+2025-09-22T08:50:59.333688+03:30 admin-HP gnome-keyring-daemon[3347]: discover_other_daemon: 1
+2025-09-22T08:51:00.706447+03:30 admin-HP polkitd[751]: Registered Authentication Agent for unix-session:2 (system bus name :1.103 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-22T08:51:01.659072+03:30 admin-HP gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-09-22T08:51:01.664859+03:30 admin-HP systemd-logind[768]: Session c1 logged out. Waiting for processes to exit.
+2025-09-22T08:51:01.682797+03:30 admin-HP polkitd[751]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-09-22T08:51:01.686271+03:30 admin-HP systemd-logind[768]: Removed session c1.
+2025-09-22T08:51:11.816532+03:30 admin-HP (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-09-22T08:52:03.070026+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T08:52:03.070718+03:30 admin-HP pkexec[4585]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-22T08:55:01.379217+03:30 admin-HP CRON[5733]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T08:55:01.381610+03:30 admin-HP CRON[5733]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:01:07.751093+03:30 admin-HP dbus-daemon[743]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-09-22T09:05:01.391087+03:30 admin-HP CRON[8194]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T09:05:01.393427+03:30 admin-HP CRON[8194]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:15:01.404108+03:30 admin-HP CRON[11291]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T09:15:01.406409+03:30 admin-HP CRON[11291]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:17:01.412792+03:30 admin-HP CRON[11415]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T09:17:01.425890+03:30 admin-HP CRON[11415]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:25:01.437326+03:30 admin-HP CRON[15742]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T09:25:01.443844+03:30 admin-HP CRON[15742]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:30:01.453371+03:30 admin-HP CRON[16904]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T09:30:01.455080+03:30 admin-HP CRON[16904]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:35:01.463482+03:30 admin-HP CRON[17457]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T09:35:01.466067+03:30 admin-HP CRON[17457]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:37:47.913525+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/complete-project/Notes-Application ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-22T09:37:47.914098+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T09:37:47.942482+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-22T09:45:01.478326+03:30 admin-HP CRON[19507]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T09:45:01.484468+03:30 admin-HP CRON[19507]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:55:01.495631+03:30 admin-HP CRON[22574]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T09:55:01.497961+03:30 admin-HP CRON[22574]: pam_unix(cron:session): session closed for user root
+2025-09-22T09:56:49.643640+03:30 admin-HP sudo: parsaimani : TTY=pts/2 ; PWD=/home/parsaimani/postgres-compose/postgres ; USER=root ; COMMAND=/usr/bin/rm -rf postgresql.conf
+2025-09-22T09:56:49.644220+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T09:56:49.646042+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-22T09:57:16.398242+03:30 admin-HP sudo: parsaimani : TTY=pts/2 ; PWD=/home/parsaimani/postgres-compose/postgres ; USER=root ; COMMAND=/usr/bin/touch postgresql.conf
+2025-09-22T09:57:16.398899+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T09:57:16.400664+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-22T10:05:01.508509+03:30 admin-HP CRON[24373]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T10:05:01.510893+03:30 admin-HP CRON[24373]: pam_unix(cron:session): session closed for user root
+2025-09-22T10:13:55.090265+03:30 admin-HP sudo: parsaimani : TTY=pts/4 ; PWD=/home/parsaimani/complete-project/Notes-Application ; USER=root ; COMMAND=/usr/bin/docker exec -it 4f40be6f36ae bash
+2025-09-22T10:13:55.090817+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T10:15:01.517403+03:30 admin-HP CRON[25412]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T10:15:01.520156+03:30 admin-HP CRON[25412]: pam_unix(cron:session): session closed for user root
+2025-09-22T10:17:01.527736+03:30 admin-HP CRON[25472]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T10:17:01.530449+03:30 admin-HP CRON[25472]: pam_unix(cron:session): session closed for user root
+2025-09-22T10:20:16.217923+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-22T10:25:01.540113+03:30 admin-HP CRON[26366]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T10:25:01.543236+03:30 admin-HP CRON[26366]: pam_unix(cron:session): session closed for user root
+2025-09-22T10:30:01.551530+03:30 admin-HP CRON[26755]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T10:30:01.553143+03:30 admin-HP CRON[26755]: pam_unix(cron:session): session closed for user root
+2025-09-22T10:35:01.561920+03:30 admin-HP CRON[26921]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T10:35:01.564226+03:30 admin-HP CRON[26921]: pam_unix(cron:session): session closed for user root
+2025-09-22T10:45:01.576286+03:30 admin-HP CRON[29499]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T10:45:01.583322+03:30 admin-HP CRON[29499]: pam_unix(cron:session): session closed for user root
+2025-09-22T10:55:01.595655+03:30 admin-HP CRON[31201]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T10:55:01.602400+03:30 admin-HP CRON[31201]: pam_unix(cron:session): session closed for user root
+2025-09-22T10:58:02.007104+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T10:58:02.009489+03:30 admin-HP pkexec[32196]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-22T11:05:01.612970+03:30 admin-HP CRON[33351]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T11:05:01.615353+03:30 admin-HP CRON[33351]: pam_unix(cron:session): session closed for user root
+2025-09-22T11:14:13.998783+03:30 admin-HP polkitd[751]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-09-22T11:14:17.189479+03:30 admin-HP polkitd[751]: Operator of unix-session:2 successfully authenticated as unix-user:parsaimani to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:34336:863840 [/bin/bash /usr/local/bin/hiddify-root] (owned by unix-user:parsaimani)
+2025-09-22T11:14:17.191940+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T11:14:17.192700+03:30 admin-HP pkexec[34340]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/bin/env DISPLAY=:0 WAYLAND_DISPLAY=wayland-0 XDG_SESSION_TYPE=wayland XDG_RUNTIME_DIR=/run/user/1001 hiddify]
+2025-09-22T11:15:01.624049+03:30 admin-HP CRON[34651]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T11:15:01.628762+03:30 admin-HP CRON[34651]: pam_unix(cron:session): session closed for user root
+2025-09-22T11:17:01.633469+03:30 admin-HP CRON[34848]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T11:17:01.636283+03:30 admin-HP CRON[34848]: pam_unix(cron:session): session closed for user root
+2025-09-22T11:25:01.645647+03:30 admin-HP CRON[36269]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T11:25:01.648010+03:30 admin-HP CRON[36269]: pam_unix(cron:session): session closed for user root
+2025-09-22T11:30:01.657812+03:30 admin-HP CRON[37347]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T11:30:01.662801+03:30 admin-HP CRON[37347]: pam_unix(cron:session): session closed for user root
+2025-09-22T11:35:01.673943+03:30 admin-HP CRON[38115]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T11:35:01.682038+03:30 admin-HP CRON[38115]: pam_unix(cron:session): session closed for user root
+2025-09-22T11:45:01.692472+03:30 admin-HP CRON[40625]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T11:45:01.694867+03:30 admin-HP CRON[40625]: pam_unix(cron:session): session closed for user root
+2025-09-22T11:55:01.704800+03:30 admin-HP CRON[42270]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T11:55:01.707256+03:30 admin-HP CRON[42270]: pam_unix(cron:session): session closed for user root
+2025-09-22T12:05:01.720088+03:30 admin-HP CRON[43725]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T12:05:01.730259+03:30 admin-HP CRON[43725]: pam_unix(cron:session): session closed for user root
+2025-09-22T12:15:01.741258+03:30 admin-HP CRON[44937]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T12:15:01.743605+03:30 admin-HP CRON[44937]: pam_unix(cron:session): session closed for user root
+2025-09-22T12:17:01.753729+03:30 admin-HP CRON[45120]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T12:17:01.762789+03:30 admin-HP CRON[45120]: pam_unix(cron:session): session closed for user root
+2025-09-22T12:25:01.773356+03:30 admin-HP CRON[46274]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T12:25:01.775659+03:30 admin-HP CRON[46274]: pam_unix(cron:session): session closed for user root
+2025-09-22T12:30:01.783992+03:30 admin-HP CRON[47180]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T12:30:01.785721+03:30 admin-HP CRON[47180]: pam_unix(cron:session): session closed for user root
+2025-09-22T12:35:01.797904+03:30 admin-HP CRON[49896]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T12:35:01.803596+03:30 admin-HP CRON[49896]: pam_unix(cron:session): session closed for user root
+2025-09-22T12:45:01.825879+03:30 admin-HP CRON[52307]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T12:45:01.833179+03:30 admin-HP CRON[52307]: pam_unix(cron:session): session closed for user root
+2025-09-22T12:55:01.841451+03:30 admin-HP CRON[55118]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T12:55:01.844077+03:30 admin-HP CRON[55118]: pam_unix(cron:session): session closed for user root
+2025-09-22T13:05:01.853168+03:30 admin-HP CRON[56371]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T13:05:01.857080+03:30 admin-HP CRON[56371]: pam_unix(cron:session): session closed for user root
+2025-09-22T13:15:01.867683+03:30 admin-HP CRON[58012]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T13:15:01.870187+03:30 admin-HP CRON[58012]: pam_unix(cron:session): session closed for user root
+2025-09-22T13:17:01.877821+03:30 admin-HP CRON[58143]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T13:17:01.889299+03:30 admin-HP CRON[58143]: pam_unix(cron:session): session closed for user root
+2025-09-22T13:18:10.561827+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-22T13:25:01.901381+03:30 admin-HP CRON[59235]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T13:25:01.907377+03:30 admin-HP CRON[59235]: pam_unix(cron:session): session closed for user root
+2025-09-22T13:30:01.920801+03:30 admin-HP CRON[59608]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T13:30:01.924926+03:30 admin-HP CRON[59608]: pam_unix(cron:session): session closed for user root
+2025-09-22T13:35:01.934292+03:30 admin-HP CRON[60008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T13:35:01.937494+03:30 admin-HP CRON[60008]: pam_unix(cron:session): session closed for user root
+2025-09-22T13:45:01.947548+03:30 admin-HP CRON[60635]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T13:45:01.949939+03:30 admin-HP CRON[60635]: pam_unix(cron:session): session closed for user root
+2025-09-22T13:55:01.959841+03:30 admin-HP CRON[61275]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T13:55:01.962091+03:30 admin-HP CRON[61275]: pam_unix(cron:session): session closed for user root
+2025-09-22T14:04:03.279968+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-22T14:05:01.982098+03:30 admin-HP CRON[62019]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T14:05:01.987735+03:30 admin-HP CRON[62019]: pam_unix(cron:session): session closed for user root
+2025-09-22T14:07:47.393141+03:30 admin-HP sudo: parsaimani : TTY=pts/2 ; PWD=/home/parsaimani/postgres-compose ; USER=root ; COMMAND=/usr/bin/su -
+2025-09-22T14:07:47.394483+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T14:07:47.399469+03:30 admin-HP su[62493]: (to root) root on pts/5
+2025-09-22T14:07:47.400002+03:30 admin-HP su[62493]: pam_unix(su-l:session): session opened for user root(uid=0) by parsaimani(uid=0)
+2025-09-22T14:15:02.002396+03:30 admin-HP CRON[63433]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T14:15:02.008892+03:30 admin-HP CRON[63433]: pam_unix(cron:session): session closed for user root
+2025-09-22T14:17:01.013613+03:30 admin-HP CRON[64075]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T14:17:01.016702+03:30 admin-HP CRON[64075]: pam_unix(cron:session): session closed for user root
+2025-09-22T14:25:01.027792+03:30 admin-HP CRON[65699]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T14:25:01.036015+03:30 admin-HP CRON[65699]: pam_unix(cron:session): session closed for user root
+2025-09-22T14:30:01.045508+03:30 admin-HP CRON[66499]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T14:30:01.047209+03:30 admin-HP CRON[66499]: pam_unix(cron:session): session closed for user root
+2025-09-22T14:31:05.403476+03:30 admin-HP su[62493]: pam_unix(su-l:session): session closed for user root
+2025-09-22T14:31:05.407533+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-22T14:35:01.059144+03:30 admin-HP CRON[66937]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T14:35:01.066160+03:30 admin-HP CRON[66937]: pam_unix(cron:session): session closed for user root
+2025-09-22T14:39:53.161509+03:30 admin-HP sudo: pam_unix(sudo:auth): authentication failure; logname=parsaimani uid=1001 euid=0 tty=/dev/pts/3 ruser=parsaimani rhost=  user=parsaimani
+2025-09-22T14:40:14.755961+03:30 admin-HP sudo: parsaimani : TTY=pts/3 ; PWD=/home/parsaimani ; USER=root ; COMMAND=/usr/bin/su -
+2025-09-22T14:40:14.756495+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-22T14:40:14.760136+03:30 admin-HP su[67572]: (to root) root on pts/5
+2025-09-22T14:40:14.760646+03:30 admin-HP su[67572]: pam_unix(su-l:session): session opened for user root(uid=0) by parsaimani(uid=0)
+2025-09-22T14:45:01.634440+03:30 admin-HP CRON[68012]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T14:45:01.636742+03:30 admin-HP CRON[68012]: pam_unix(cron:session): session closed for user root
+2025-09-22T14:55:01.648541+03:30 admin-HP CRON[71337]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T14:55:01.655171+03:30 admin-HP CRON[71337]: pam_unix(cron:session): session closed for user root
+2025-09-22T15:05:01.667565+03:30 admin-HP CRON[74090]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T15:05:01.674421+03:30 admin-HP CRON[74090]: pam_unix(cron:session): session closed for user root
+2025-09-22T15:15:01.685325+03:30 admin-HP CRON[77601]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T15:15:01.687828+03:30 admin-HP CRON[77601]: pam_unix(cron:session): session closed for user root
+2025-09-22T15:17:01.694003+03:30 admin-HP CRON[78166]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T15:17:01.697370+03:30 admin-HP CRON[78166]: pam_unix(cron:session): session closed for user root
+2025-09-22T15:25:01.706184+03:30 admin-HP CRON[80610]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T15:25:01.708463+03:30 admin-HP CRON[80610]: pam_unix(cron:session): session closed for user root
+2025-09-22T15:30:01.717536+03:30 admin-HP CRON[81791]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T15:30:01.719280+03:30 admin-HP CRON[81791]: pam_unix(cron:session): session closed for user root
+2025-09-22T15:35:01.724104+03:30 admin-HP CRON[83604]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T15:35:01.726500+03:30 admin-HP CRON[83604]: pam_unix(cron:session): session closed for user root
+2025-09-22T15:45:01.736857+03:30 admin-HP CRON[84602]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T15:45:01.739273+03:30 admin-HP CRON[84602]: pam_unix(cron:session): session closed for user root
+2025-09-22T15:53:55.206047+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-22T15:55:01.744934+03:30 admin-HP CRON[85485]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T15:55:01.746965+03:30 admin-HP CRON[85485]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:05:01.754288+03:30 admin-HP CRON[87708]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T16:05:01.757581+03:30 admin-HP CRON[87708]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:15:01.769344+03:30 admin-HP CRON[90571]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T16:15:01.776738+03:30 admin-HP CRON[90571]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:17:01.788144+03:30 admin-HP CRON[90822]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T16:17:01.796449+03:30 admin-HP CRON[90822]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:25:01.806883+03:30 admin-HP CRON[91452]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T16:25:01.809451+03:30 admin-HP CRON[91452]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:30:01.820536+03:30 admin-HP CRON[91742]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T16:30:01.826194+03:30 admin-HP CRON[91742]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:35:01.835219+03:30 admin-HP CRON[92044]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T16:35:01.841178+03:30 admin-HP CRON[92044]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:45:01.846823+03:30 admin-HP CRON[92649]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T16:45:01.850299+03:30 admin-HP CRON[92649]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:55:01.856586+03:30 admin-HP CRON[93211]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T16:55:01.859059+03:30 admin-HP CRON[93211]: pam_unix(cron:session): session closed for user root
+2025-09-22T16:56:02.760391+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-22T17:05:01.865079+03:30 admin-HP CRON[95426]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T17:05:01.868215+03:30 admin-HP CRON[95426]: pam_unix(cron:session): session closed for user root
+2025-09-22T17:15:01.879774+03:30 admin-HP CRON[99774]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T17:15:01.885342+03:30 admin-HP CRON[99774]: pam_unix(cron:session): session closed for user root
+2025-09-22T17:17:01.896031+03:30 admin-HP CRON[100397]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T17:17:01.903430+03:30 admin-HP CRON[100397]: pam_unix(cron:session): session closed for user root
+2025-09-22T17:25:01.185552+03:30 admin-HP su[67572]: pam_unix(su-l:session): session closed for user root
+2025-09-22T17:25:01.189570+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-22T17:25:01.916125+03:30 admin-HP CRON[101932]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T17:25:01.925088+03:30 admin-HP CRON[101932]: pam_unix(cron:session): session closed for user root
+2025-09-22T17:30:01.932675+03:30 admin-HP CRON[103490]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T17:30:01.935329+03:30 admin-HP CRON[103490]: pam_unix(cron:session): session closed for user root
+2025-09-22T17:35:01.940511+03:30 admin-HP CRON[104409]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T17:35:01.942937+03:30 admin-HP CRON[104409]: pam_unix(cron:session): session closed for user root
+2025-09-22T17:45:01.955070+03:30 admin-HP CRON[108085]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T17:45:01.961386+03:30 admin-HP CRON[108085]: pam_unix(cron:session): session closed for user root
+2025-09-22T17:55:01.975068+03:30 admin-HP CRON[109658]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T17:55:01.983306+03:30 admin-HP CRON[109658]: pam_unix(cron:session): session closed for user root
+2025-09-22T18:05:01.995410+03:30 admin-HP CRON[112100]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T18:05:02.002640+03:30 admin-HP CRON[112100]: pam_unix(cron:session): session closed for user root
+2025-09-22T18:15:01.015909+03:30 admin-HP CRON[112899]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T18:15:01.023350+03:30 admin-HP CRON[112899]: pam_unix(cron:session): session closed for user root
+2025-09-22T18:17:01.028440+03:30 admin-HP CRON[113037]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T18:17:01.030920+03:30 admin-HP CRON[113037]: pam_unix(cron:session): session closed for user root
+2025-09-22T18:25:01.042790+03:30 admin-HP CRON[113661]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T18:25:01.050314+03:30 admin-HP CRON[113661]: pam_unix(cron:session): session closed for user root
+2025-09-22T18:26:56.421111+03:30 admin-HP systemd-logind[768]: The system will power off now!
+2025-09-22T18:26:56.454193+03:30 admin-HP systemd-logind[768]: System is powering down.
+2025-09-23T09:11:42.061473+03:30 admin-HP systemd-logind[769]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-09-23T09:11:42.061673+03:30 admin-HP systemd-logind[769]: Watching system buttons on /dev/input/event1 (Power Button)
+2025-09-23T09:11:42.061764+03:30 admin-HP systemd-logind[769]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2025-09-23T09:11:42.061838+03:30 admin-HP systemd-logind[769]: Watching system buttons on /dev/input/event3 (SIGMACHIP USB Keyboard)
+2025-09-23T09:11:42.061909+03:30 admin-HP systemd-logind[769]: Watching system buttons on /dev/input/event4 (SIGMACHIP USB Keyboard Consumer Control)
+2025-09-23T09:11:42.062108+03:30 admin-HP systemd-logind[769]: Watching system buttons on /dev/input/event5 (SIGMACHIP USB Keyboard System Control)
+2025-09-23T09:11:42.062179+03:30 admin-HP systemd-logind[769]: Watching system buttons on /dev/input/event7 (USB OPTICAL MOUSE  Keyboard)
+2025-09-23T09:11:42.062915+03:30 admin-HP systemd-logind[769]: New seat seat0.
+2025-09-23T09:11:42.078838+03:30 admin-HP polkitd[755]: Loading rules from directory /etc/polkit-1/rules.d
+2025-09-23T09:11:42.079095+03:30 admin-HP polkitd[755]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-09-23T09:11:42.093828+03:30 admin-HP polkitd[755]: Finished loading, compiling and executing 16 rules
+2025-09-23T09:11:42.095557+03:30 admin-HP polkitd[755]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-09-23T09:11:43.160885+03:30 admin-HP gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-09-23T09:11:43.181436+03:30 admin-HP systemd-logind[769]: New session c1 of user gdm.
+2025-09-23T09:11:43.201312+03:30 admin-HP (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-09-23T09:11:45.216696+03:30 admin-HP polkitd[755]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-23T09:13:37.737452+03:30 admin-HP gdm-password]: gkr-pam: unable to locate daemon control file
+2025-09-23T09:13:37.737656+03:30 admin-HP gdm-password]: gkr-pam: stashed password to try later in open session
+2025-09-23T09:13:37.744995+03:30 admin-HP gdm-password]: pam_unix(gdm-password:session): session opened for user parsaimani(uid=1001) by parsaimani(uid=0)
+2025-09-23T09:13:37.764286+03:30 admin-HP systemd-logind[769]: New session 2 of user parsaimani.
+2025-09-23T09:13:37.782141+03:30 admin-HP (systemd): pam_unix(systemd-user:session): session opened for user parsaimani(uid=1001) by parsaimani(uid=0)
+2025-09-23T09:13:38.056941+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-23T09:13:38.537894+03:30 admin-HP gnome-keyring-daemon[3617]: The PKCS#11 component was already initialized
+2025-09-23T09:13:38.538022+03:30 admin-HP gnome-keyring-daemon[3617]: The Secret Service was already initialized
+2025-09-23T09:13:38.538300+03:30 admin-HP gnome-keyring-daemon[3869]: discover_other_daemon: 1
+2025-09-23T09:13:38.538818+03:30 admin-HP gnome-keyring-daemon[3870]: discover_other_daemon: 1
+2025-09-23T09:13:38.551869+03:30 admin-HP gnome-keyring-daemon[3871]: discover_other_daemon: 1
+2025-09-23T09:13:39.909980+03:30 admin-HP polkitd[755]: Registered Authentication Agent for unix-session:2 (system bus name :1.107 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-23T09:13:40.875310+03:30 admin-HP gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-09-23T09:13:40.883606+03:30 admin-HP systemd-logind[769]: Session c1 logged out. Waiting for processes to exit.
+2025-09-23T09:13:40.889639+03:30 admin-HP polkitd[755]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-09-23T09:13:40.893396+03:30 admin-HP systemd-logind[769]: Removed session c1.
+2025-09-23T09:13:51.107459+03:30 admin-HP (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-09-23T09:14:42.522489+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:14:42.523377+03:30 admin-HP pkexec[6163]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-23T09:15:01.851965+03:30 admin-HP CRON[6309]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T09:15:01.854528+03:30 admin-HP CRON[6309]: pam_unix(cron:session): session closed for user root
+2025-09-23T09:17:01.865612+03:30 admin-HP CRON[6956]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T09:17:01.887310+03:30 admin-HP CRON[6956]: pam_unix(cron:session): session closed for user root
+2025-09-23T09:25:01.899916+03:30 admin-HP CRON[7331]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T09:25:01.911279+03:30 admin-HP CRON[7331]: pam_unix(cron:session): session closed for user root
+2025-09-23T09:30:01.917681+03:30 admin-HP CRON[8221]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T09:30:01.926078+03:30 admin-HP CRON[8221]: pam_unix(cron:session): session closed for user root
+2025-09-23T09:30:02.032521+03:30 admin-HP sudo: parsaimani : TTY=pts/0 ; PWD=/home/parsaimani/monitoring ; USER=root ; COMMAND=/usr/bin/apt install software-properties-common gnupg apt-transport-https ca-certificates -y
+2025-09-23T09:30:02.034707+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:30:19.542746+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T09:30:59.597374+03:30 admin-HP sudo: parsaimani : TTY=pts/0 ; PWD=/home/parsaimani/monitoring ; USER=root ; COMMAND=/usr/bin/gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor
+2025-09-23T09:30:59.598501+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:31:00.586039+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T09:31:13.060916+03:30 admin-HP sudo: parsaimani : TTY=pts/0 ; PWD=/home/parsaimani/monitoring ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+2025-09-23T09:31:13.061456+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:31:13.072652+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T09:32:43.120214+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:32:43.121133+03:30 admin-HP pkexec[8864]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-23T09:32:54.083725+03:30 admin-HP sudo: parsaimani : TTY=pts/0 ; PWD=/home/parsaimani/monitoring ; USER=root ; COMMAND=/usr/bin/apt update
+2025-09-23T09:32:54.085837+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:33:09.142225+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T09:33:28.963324+03:30 admin-HP sudo: parsaimani : TTY=pts/0 ; PWD=/home/parsaimani/monitoring ; USER=root ; COMMAND=/usr/bin/apt install mongodb-org -y
+2025-09-23T09:33:28.963964+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:33:30.595158+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T09:33:43.874382+03:30 admin-HP polkitd[755]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-09-23T09:33:59.994665+03:30 admin-HP polkitd[755]: Operator of unix-session:2 successfully authenticated as unix-user:parsaimani to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:9435:132577 [/bin/bash /usr/local/bin/hiddify-root] (owned by unix-user:parsaimani)
+2025-09-23T09:33:59.997471+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:33:59.998356+03:30 admin-HP pkexec[9439]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/bin/env DISPLAY=:0 WAYLAND_DISPLAY=wayland-0 XDG_SESSION_TYPE=wayland XDG_RUNTIME_DIR=/run/user/1001 hiddify]
+2025-09-23T09:34:07.459684+03:30 admin-HP sudo: parsaimani : TTY=pts/0 ; PWD=/home/parsaimani/monitoring ; USER=root ; COMMAND=/usr/bin/apt install mongodb-org -y
+2025-09-23T09:34:07.462185+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:35:01.932694+03:30 admin-HP CRON[9610]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T09:35:01.940996+03:30 admin-HP CRON[9610]: pam_unix(cron:session): session closed for user root
+2025-09-23T09:35:41.686221+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T09:35:41.688825+03:30 admin-HP pkexec[9650]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-23T09:45:01.950234+03:30 admin-HP CRON[11249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T09:45:01.963153+03:30 admin-HP CRON[11249]: pam_unix(cron:session): session closed for user root
+2025-09-23T09:55:01.961340+03:30 admin-HP CRON[11991]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T09:55:01.972395+03:30 admin-HP CRON[11991]: pam_unix(cron:session): session closed for user root
+2025-09-23T09:55:56.223814+03:30 admin-HP dbus-daemon[746]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-09-23T10:05:01.975611+03:30 admin-HP CRON[12609]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T10:05:01.982587+03:30 admin-HP CRON[12609]: pam_unix(cron:session): session closed for user root
+2025-09-23T10:07:22.500358+03:30 admin-HP useradd[12964]: new user: name=mongodb, UID=122, GID=65534, home=/nonexistent, shell=/usr/sbin/nologin, from=/dev/pts/5
+2025-09-23T10:07:22.569956+03:30 admin-HP groupadd[12975]: group added to /etc/group: name=mongodb, GID=124
+2025-09-23T10:07:22.573333+03:30 admin-HP groupadd[12975]: group added to /etc/gshadow: name=mongodb
+2025-09-23T10:07:22.574674+03:30 admin-HP groupadd[12975]: new group: name=mongodb, GID=124
+2025-09-23T10:07:22.624196+03:30 admin-HP usermod[12983]: add 'mongodb' to group 'mongodb'
+2025-09-23T10:07:22.624279+03:30 admin-HP usermod[12983]: add 'mongodb' to shadow group 'mongodb'
+2025-09-23T10:07:25.245639+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T10:08:41.588604+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T10:08:41.589575+03:30 admin-HP pkexec[13853]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-23T10:11:57.085064+03:30 admin-HP sudo: parsaimani : TTY=pts/5 ; PWD=/etc/netplan ; USER=root ; COMMAND=/usr/bin/systemctl status resolvectl
+2025-09-23T10:11:57.085888+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T10:11:57.103974+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T10:12:03.649542+03:30 admin-HP sudo: parsaimani : TTY=pts/5 ; PWD=/etc/netplan ; USER=root ; COMMAND=/usr/bin/systemctl status resolve-ctl
+2025-09-23T10:12:03.650148+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T10:12:03.657076+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T10:12:07.070193+03:30 admin-HP sudo: parsaimani : TTY=pts/5 ; PWD=/etc/netplan ; USER=root ; COMMAND=/usr/bin/systemctl status resolvctl
+2025-09-23T10:12:07.070879+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T10:12:07.077855+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T10:15:01.993091+03:30 admin-HP CRON[14757]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T10:15:01.995328+03:30 admin-HP CRON[14757]: pam_unix(cron:session): session closed for user root
+2025-09-23T10:17:02.005256+03:30 admin-HP CRON[15031]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T10:17:02.011872+03:30 admin-HP CRON[15031]: pam_unix(cron:session): session closed for user root
+2025-09-23T10:22:21.166520+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/monitoring/prometheus ; USER=root ; COMMAND=/usr/bin/hiddify
+2025-09-23T10:22:21.167111+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T10:22:25.948811+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T10:25:01.021348+03:30 admin-HP CRON[17644]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T10:25:01.024176+03:30 admin-HP CRON[17644]: pam_unix(cron:session): session closed for user root
+2025-09-23T10:29:22.955298+03:30 admin-HP polkitd[755]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-09-23T10:29:26.439316+03:30 admin-HP polkitd[755]: Operator of unix-session:2 successfully authenticated as unix-user:parsaimani to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:18053:466485 [/bin/bash /usr/local/bin/hiddify-root] (owned by unix-user:parsaimani)
+2025-09-23T10:29:26.441868+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T10:29:26.442820+03:30 admin-HP pkexec[18056]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/bin/env DISPLAY=:0 WAYLAND_DISPLAY=wayland-0 XDG_SESSION_TYPE=wayland XDG_RUNTIME_DIR=/run/user/1001 hiddify]
+2025-09-23T10:30:01.028950+03:30 admin-HP CRON[18286]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T10:30:01.030898+03:30 admin-HP CRON[18286]: pam_unix(cron:session): session closed for user root
+2025-09-23T10:35:01.039276+03:30 admin-HP CRON[19050]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T10:35:01.041615+03:30 admin-HP CRON[19050]: pam_unix(cron:session): session closed for user root
+2025-09-23T10:45:01.049541+03:30 admin-HP CRON[19953]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T10:45:01.054390+03:30 admin-HP CRON[19953]: pam_unix(cron:session): session closed for user root
+2025-09-23T10:55:01.065117+03:30 admin-HP CRON[20771]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T10:55:01.071324+03:30 admin-HP CRON[20771]: pam_unix(cron:session): session closed for user root
+2025-09-23T11:05:01.076596+03:30 admin-HP CRON[23166]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T11:05:01.078935+03:30 admin-HP CRON[23166]: pam_unix(cron:session): session closed for user root
+2025-09-23T11:15:01.091417+03:30 admin-HP CRON[23768]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T11:15:01.098553+03:30 admin-HP CRON[23768]: pam_unix(cron:session): session closed for user root
+2025-09-23T11:17:01.108462+03:30 admin-HP CRON[23889]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T11:17:01.114299+03:30 admin-HP CRON[23889]: pam_unix(cron:session): session closed for user root
+2025-09-23T11:19:09.732260+03:30 admin-HP polkitd[755]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-09-23T11:19:13.165513+03:30 admin-HP polkitd[755]: Operator of unix-session:2 successfully authenticated as unix-user:parsaimani to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:24102:765161 [/bin/bash /usr/local/bin/hiddify-root] (owned by unix-user:parsaimani)
+2025-09-23T11:19:13.168265+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:19:13.169113+03:30 admin-HP pkexec[24106]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/bin/env DISPLAY=:0 WAYLAND_DISPLAY=wayland-0 XDG_SESSION_TYPE=wayland XDG_RUNTIME_DIR=/run/user/1001 hiddify]
+2025-09-23T11:25:01.124361+03:30 admin-HP CRON[24924]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T11:25:01.126778+03:30 admin-HP CRON[24924]: pam_unix(cron:session): session closed for user root
+2025-09-23T11:28:33.936616+03:30 admin-HP sudo: parsaimani : TTY=pts/6 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-23T11:28:33.937199+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:28:33.976096+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T11:30:01.139038+03:30 admin-HP CRON[26892]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T11:30:01.148922+03:30 admin-HP CRON[26892]: pam_unix(cron:session): session closed for user root
+2025-09-23T11:32:06.006102+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/traefik ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-23T11:32:06.006615+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:32:06.044923+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T11:35:01.156545+03:30 admin-HP CRON[28346]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T11:35:01.165997+03:30 admin-HP CRON[28346]: pam_unix(cron:session): session closed for user root
+2025-09-23T11:45:01.176571+03:30 admin-HP CRON[29255]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T11:45:01.178978+03:30 admin-HP CRON[29255]: pam_unix(cron:session): session closed for user root
+2025-09-23T11:48:45.122896+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-23T11:49:54.430459+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/monitoring/prometheus ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+2025-09-23T11:49:54.430995+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:49:54.448686+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T11:50:09.778308+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/monitoring/prometheus ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+2025-09-23T11:50:09.780975+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:50:09.795862+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T11:50:16.955737+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/monitoring/prometheus ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+2025-09-23T11:50:16.957545+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:50:23.920000+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T11:51:21.828303+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/complete-project/Notes-Application/frontend ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+2025-09-23T11:51:21.829271+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:51:21.844702+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T11:51:26.851819+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/complete-project/Notes-Application/frontend ; USER=root ; COMMAND=/usr/bin/systemctl status mongod
+2025-09-23T11:51:26.852754+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:51:37.380683+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T11:51:44.499992+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/complete-project/Notes-Application/frontend ; USER=root ; COMMAND=/usr/bin/ss -pnltu
+2025-09-23T11:51:44.500858+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T11:51:44.563846+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T11:55:01.192185+03:30 admin-HP CRON[31052]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T11:55:01.199149+03:30 admin-HP CRON[31052]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:04:01.824225+03:30 admin-HP sudo: parsaimani : TTY=pts/8 ; PWD=/home/parsaimani/monitoring/prometheus ; USER=root ; COMMAND=/usr/bin/su -
+2025-09-23T12:04:01.824738+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:04:01.830340+03:30 admin-HP su[32445]: (to root) root on pts/9
+2025-09-23T12:04:01.830859+03:30 admin-HP su[32445]: pam_unix(su-l:session): session opened for user root(uid=0) by parsaimani(uid=0)
+2025-09-23T12:05:01.212744+03:30 admin-HP CRON[32502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T12:05:01.220095+03:30 admin-HP CRON[32502]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:06:08.749555+03:30 admin-HP su[32445]: pam_unix(su-l:session): session closed for user root
+2025-09-23T12:06:08.753811+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:07:08.386296+03:30 admin-HP sudo: parsaimani : TTY=pts/1 ; PWD=/home/parsaimani/complete-project/Notes-Application/frontend ; USER=root ; COMMAND=/usr/bin/su -
+2025-09-23T12:07:08.386807+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:07:08.390575+03:30 admin-HP su[32744]: (to root) root on pts/9
+2025-09-23T12:07:08.391071+03:30 admin-HP su[32744]: pam_unix(su-l:session): session opened for user root(uid=0) by parsaimani(uid=0)
+2025-09-23T12:13:24.310229+03:30 admin-HP sudo: parsaimani : TTY=pts/6 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl stop mongod
+2025-09-23T12:13:24.310750+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:13:24.360597+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:14:10.097551+03:30 admin-HP sudo: parsaimani : TTY=pts/6 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+2025-09-23T12:14:10.098188+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:14:10.120648+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:15:01.230461+03:30 admin-HP CRON[34478]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T12:15:01.232859+03:30 admin-HP CRON[34478]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:17:01.241814+03:30 admin-HP CRON[34990]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T12:17:01.249282+03:30 admin-HP CRON[34990]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:20:54.305151+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+2025-09-23T12:20:54.305735+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:20:54.312134+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:25:01.257193+03:30 admin-HP CRON[36692]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T12:25:01.259758+03:30 admin-HP CRON[36692]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:30:01.263762+03:30 admin-HP CRON[37394]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T12:30:01.265619+03:30 admin-HP CRON[37394]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:33:16.519487+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/on-permise-exporter ; USER=root ; COMMAND=/usr/bin/mv mongodb_exporter /usr/local/bin/
+2025-09-23T12:33:16.521572+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:33:16.528197+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:35:01.269747+03:30 admin-HP CRON[37820]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T12:35:01.271844+03:30 admin-HP CRON[37820]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:35:33.430652+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/usr/lib/systemd/system ; USER=root ; COMMAND=/usr/bin/nano mongodb_exporter.service
+2025-09-23T12:35:33.432729+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:35:47.327303+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:35:51.369842+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/usr/lib/systemd/system ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reload
+2025-09-23T12:35:51.371901+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:35:51.779243+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:35:56.272837+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/usr/lib/systemd/system ; USER=root ; COMMAND=/usr/bin/systemctl start mongodb_exporter.service
+2025-09-23T12:35:56.275318+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:35:56.307732+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:35:59.912478+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/usr/lib/systemd/system ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T12:35:59.914517+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:36:26.549087+03:30 admin-HP sudo: parsaimani : TTY=pts/5 ; PWD=/home/parsaimani/ELK ; USER=root ; COMMAND=/usr/bin/curl http://localhost:9216/metrics
+2025-09-23T12:36:26.549666+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:36:26.557711+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:39:33.659077+03:30 admin-HP sudo: parsaimani : TTY=pts/5 ; PWD=/home/parsaimani/ELK ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T12:39:33.664197+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:41:41.562333+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:41:41.563241+03:30 admin-HP pkexec[39140]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-23T12:44:43.992185+03:30 admin-HP polkitd[755]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-09-23T12:44:47.922139+03:30 admin-HP polkitd[755]: Operator of unix-session:2 successfully authenticated as unix-user:parsaimani to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:40176:1278590 [/bin/bash /usr/local/bin/hiddify-root] (owned by unix-user:parsaimani)
+2025-09-23T12:44:47.924798+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:44:47.925891+03:30 admin-HP pkexec[40178]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/bin/env DISPLAY=:0 WAYLAND_DISPLAY=wayland-0 XDG_SESSION_TYPE=wayland XDG_RUNTIME_DIR=/run/user/1001 hiddify]
+2025-09-23T12:45:01.276606+03:30 admin-HP CRON[40244]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T12:45:01.278817+03:30 admin-HP CRON[40244]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:46:53.627483+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T12:47:59.470517+03:30 admin-HP sudo: pam_unix(sudo:auth): conversation failed
+2025-09-23T12:47:59.470829+03:30 admin-HP sudo: pam_unix(sudo:auth): auth could not identify password for [parsaimani]
+2025-09-23T12:51:18.378078+03:30 admin-HP polkitd[755]: Registered Authentication Agent for unix-process:41928:1318028 (system bus name :1.515 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-23T12:51:18.401835+03:30 admin-HP polkitd[755]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-09-23T12:51:21.437477+03:30 admin-HP polkitd[755]: Operator of unix-session:2 successfully authenticated as unix-user:parsaimani to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.516 [systemctl stop mongod] (owned by unix-user:parsaimani)
+2025-09-23T12:51:21.476693+03:30 admin-HP polkitd[755]: Unregistered Authentication Agent for unix-process:unknown (system bus name :1.515, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-09-23T12:55:01.283826+03:30 admin-HP CRON[45755]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T12:55:01.285972+03:30 admin-HP CRON[45755]: pam_unix(cron:session): session closed for user root
+2025-09-23T12:56:41.907612+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T12:56:41.908781+03:30 admin-HP pkexec[46961]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-23T13:05:01.299327+03:30 admin-HP CRON[48426]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T13:05:01.306546+03:30 admin-HP CRON[48426]: pam_unix(cron:session): session closed for user root
+2025-09-23T13:15:01.319083+03:30 admin-HP CRON[50789]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T13:15:01.327278+03:30 admin-HP CRON[50789]: pam_unix(cron:session): session closed for user root
+2025-09-23T13:17:01.337862+03:30 admin-HP CRON[50889]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T13:17:01.346209+03:30 admin-HP CRON[50889]: pam_unix(cron:session): session closed for user root
+2025-09-23T13:25:01.359531+03:30 admin-HP CRON[51257]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T13:25:01.367490+03:30 admin-HP CRON[51257]: pam_unix(cron:session): session closed for user root
+2025-09-23T13:30:01.380179+03:30 admin-HP CRON[51468]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T13:30:01.386504+03:30 admin-HP CRON[51468]: pam_unix(cron:session): session closed for user root
+2025-09-23T13:35:01.398897+03:30 admin-HP CRON[51681]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T13:35:01.406442+03:30 admin-HP CRON[51681]: pam_unix(cron:session): session closed for user root
+2025-09-23T13:38:01.599826+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-23T13:45:01.419658+03:30 admin-HP CRON[53647]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T13:45:01.426565+03:30 admin-HP CRON[53647]: pam_unix(cron:session): session closed for user root
+2025-09-23T13:47:58.044968+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:49:20.878584+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T13:49:20.879080+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:49:31.448452+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:51:39.859236+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl restart mongodb_exporter.service
+2025-09-23T13:51:39.862040+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:51:39.892202+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:51:43.962649+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T13:51:43.963400+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:52:01.969684+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:52:42.046005+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl restart mongodb_exporter.service
+2025-09-23T13:52:42.047065+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:52:42.063353+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:52:44.844916+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T13:52:44.846593+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:52:52.506209+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:53:10.888831+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T13:53:10.891292+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:53:15.086223+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:53:17.615200+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl restart mongodb_exporter.service
+2025-09-23T13:53:17.617282+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:53:17.659240+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:53:18.936788+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T13:53:18.939734+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:54:21.368860+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:54:23.266234+03:30 admin-HP sudo: parsaimani : TTY=pts/7 ; PWD=/home/parsaimani/exporters-compose ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T13:54:23.268942+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:54:28.539709+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:55:01.439812+03:30 admin-HP CRON[57655]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T13:55:01.447583+03:30 admin-HP CRON[57655]: pam_unix(cron:session): session closed for user root
+2025-09-23T13:57:34.193526+03:30 admin-HP sudo: parsaimani : TTY=pts/12 ; PWD=/home/parsaimani/complete-project/Notes-Application ; USER=root ; COMMAND=/usr/bin/systemctl restart mongodb_exporter.service
+2025-09-23T13:57:34.194072+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:57:34.214714+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:57:43.597860+03:30 admin-HP sudo: parsaimani : TTY=pts/12 ; PWD=/home/parsaimani/complete-project/Notes-Application ; USER=root ; COMMAND=/usr/bin/systemctl status mongodb_exporter.service
+2025-09-23T13:57:43.600861+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:58:07.219357+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T13:58:12.190234+03:30 admin-HP sudo: parsaimani : TTY=pts/12 ; PWD=/home/parsaimani/complete-project/Notes-Application ; USER=root ; COMMAND=/usr/bin/systemctl stop mongodb_exporter.service
+2025-09-23T13:58:12.193319+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-23T13:58:12.210102+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-23T14:05:01.460735+03:30 admin-HP CRON[60973]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T14:05:01.468551+03:30 admin-HP CRON[60973]: pam_unix(cron:session): session closed for user root
+2025-09-23T14:15:01.481819+03:30 admin-HP CRON[64852]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T14:15:01.488562+03:30 admin-HP CRON[64852]: pam_unix(cron:session): session closed for user root
+2025-09-23T14:17:01.500252+03:30 admin-HP CRON[65086]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T14:17:01.507861+03:30 admin-HP CRON[65086]: pam_unix(cron:session): session closed for user root
+2025-09-23T14:25:01.517605+03:30 admin-HP CRON[66774]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T14:25:01.521472+03:30 admin-HP CRON[66774]: pam_unix(cron:session): session closed for user root
+2025-09-23T14:30:01.531626+03:30 admin-HP CRON[67347]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T14:30:01.536694+03:30 admin-HP CRON[67347]: pam_unix(cron:session): session closed for user root
+2025-09-23T14:35:01.542003+03:30 admin-HP CRON[68592]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T14:35:01.544657+03:30 admin-HP CRON[68592]: pam_unix(cron:session): session closed for user root
+2025-09-23T14:45:01.569828+03:30 admin-HP CRON[73703]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T14:45:01.578335+03:30 admin-HP CRON[73703]: pam_unix(cron:session): session closed for user root
+2025-09-23T14:55:01.602120+03:30 admin-HP CRON[76026]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T14:55:01.610360+03:30 admin-HP CRON[76026]: pam_unix(cron:session): session closed for user root
+2025-09-23T15:05:01.617991+03:30 admin-HP CRON[77168]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T15:05:01.620902+03:30 admin-HP CRON[77168]: pam_unix(cron:session): session closed for user root
+2025-09-23T15:15:01.631472+03:30 admin-HP CRON[81287]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T15:15:01.636183+03:30 admin-HP CRON[81287]: pam_unix(cron:session): session closed for user root
+2025-09-23T15:17:01.646015+03:30 admin-HP CRON[81593]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T15:17:01.653895+03:30 admin-HP CRON[81593]: pam_unix(cron:session): session closed for user root
+2025-09-23T15:25:01.667100+03:30 admin-HP CRON[83685]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T15:25:01.673689+03:30 admin-HP CRON[83685]: pam_unix(cron:session): session closed for user root
+2025-09-23T15:30:01.683149+03:30 admin-HP CRON[84233]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T15:30:01.684993+03:30 admin-HP CRON[84233]: pam_unix(cron:session): session closed for user root
+2025-09-23T15:35:01.697415+03:30 admin-HP CRON[84624]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T15:35:01.703900+03:30 admin-HP CRON[84624]: pam_unix(cron:session): session closed for user root
+2025-09-23T15:45:01.715707+03:30 admin-HP CRON[85588]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T15:45:01.718937+03:30 admin-HP CRON[85588]: pam_unix(cron:session): session closed for user root
+2025-09-23T15:55:01.731008+03:30 admin-HP CRON[86540]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T15:55:01.737190+03:30 admin-HP CRON[86540]: pam_unix(cron:session): session closed for user root
+2025-09-23T16:05:01.747561+03:30 admin-HP CRON[91559]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T16:05:01.749906+03:30 admin-HP CRON[91559]: pam_unix(cron:session): session closed for user root
+2025-09-23T16:15:01.763847+03:30 admin-HP CRON[102677]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T16:15:01.766368+03:30 admin-HP CRON[102677]: pam_unix(cron:session): session closed for user root
+2025-09-23T16:17:01.774366+03:30 admin-HP CRON[102862]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T16:17:01.777655+03:30 admin-HP CRON[102862]: pam_unix(cron:session): session closed for user root
+2025-09-23T16:25:01.786688+03:30 admin-HP CRON[103793]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T16:25:01.789077+03:30 admin-HP CRON[103793]: pam_unix(cron:session): session closed for user root
+2025-09-23T16:30:01.800601+03:30 admin-HP CRON[104249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T16:30:01.804930+03:30 admin-HP CRON[104249]: pam_unix(cron:session): session closed for user root
+2025-09-23T16:35:01.815242+03:30 admin-HP CRON[104725]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T16:35:01.823323+03:30 admin-HP CRON[104725]: pam_unix(cron:session): session closed for user root
+2025-09-23T16:45:01.828916+03:30 admin-HP CRON[107716]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T16:45:01.836099+03:30 admin-HP CRON[107716]: pam_unix(cron:session): session closed for user root
+2025-09-23T16:55:01.850798+03:30 admin-HP CRON[111038]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T16:55:01.857747+03:30 admin-HP CRON[111038]: pam_unix(cron:session): session closed for user root
+2025-09-23T17:05:01.871361+03:30 admin-HP CRON[122694]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T17:05:01.877466+03:30 admin-HP CRON[122694]: pam_unix(cron:session): session closed for user root
+2025-09-23T17:15:01.891646+03:30 admin-HP CRON[132555]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T17:15:01.898605+03:30 admin-HP CRON[132555]: pam_unix(cron:session): session closed for user root
+2025-09-23T17:17:01.906124+03:30 admin-HP CRON[134931]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T17:17:01.911049+03:30 admin-HP CRON[134931]: pam_unix(cron:session): session closed for user root
+2025-09-23T17:25:01.973582+03:30 admin-HP CRON[139829]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T17:25:01.982996+03:30 admin-HP CRON[139829]: pam_unix(cron:session): session closed for user root
+2025-09-23T17:30:01.989779+03:30 admin-HP CRON[144430]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T17:30:01.991193+03:30 admin-HP CRON[144430]: pam_unix(cron:session): session closed for user root
+2025-09-23T17:35:01.996098+03:30 admin-HP CRON[152859]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T17:35:02.000192+03:30 admin-HP CRON[152859]: pam_unix(cron:session): session closed for user root
+2025-09-23T17:45:01.013257+03:30 admin-HP CRON[162161]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T17:45:01.022755+03:30 admin-HP CRON[162161]: pam_unix(cron:session): session closed for user root
+2025-09-23T17:55:01.030222+03:30 admin-HP CRON[167512]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T17:55:01.039522+03:30 admin-HP CRON[167512]: pam_unix(cron:session): session closed for user root
+2025-09-23T18:05:01.051208+03:30 admin-HP CRON[174123]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T18:05:01.060111+03:30 admin-HP CRON[174123]: pam_unix(cron:session): session closed for user root
+2025-09-23T18:15:01.069800+03:30 admin-HP CRON[178849]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T18:15:01.076905+03:30 admin-HP CRON[178849]: pam_unix(cron:session): session closed for user root
+2025-09-23T18:17:01.086108+03:30 admin-HP CRON[179652]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T18:17:01.089423+03:30 admin-HP CRON[179652]: pam_unix(cron:session): session closed for user root
+2025-09-23T18:25:01.094692+03:30 admin-HP CRON[187867]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T18:25:01.097215+03:30 admin-HP CRON[187867]: pam_unix(cron:session): session closed for user root
+2025-09-23T18:30:01.108525+03:30 admin-HP CRON[191008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T18:30:01.113492+03:30 admin-HP CRON[191008]: pam_unix(cron:session): session closed for user root
+2025-09-23T18:35:01.122663+03:30 admin-HP CRON[193465]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-23T18:35:01.125056+03:30 admin-HP CRON[193465]: pam_unix(cron:session): session closed for user root
+2025-09-23T18:37:30.900370+03:30 admin-HP systemd-logind[769]: The system will power off now!
+2025-09-23T18:37:31.147358+03:30 admin-HP systemd-logind[769]: System is powering down.
+2025-09-23T18:37:31.173647+03:30 admin-HP gdm-password]: pam_unix(gdm-password:session): session closed for user parsaimani
+2025-09-24T08:52:07.191899+03:30 admin-HP gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-09-24T08:52:07.210249+03:30 admin-HP systemd-logind[783]: New session c1 of user gdm.
+2025-09-24T08:52:07.238596+03:30 admin-HP (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-09-24T08:52:08.941728+03:30 admin-HP polkitd[756]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-24T08:52:26.928792+03:30 admin-HP gdm-password]: gkr-pam: unable to locate daemon control file
+2025-09-24T08:52:26.929166+03:30 admin-HP gdm-password]: gkr-pam: stashed password to try later in open session
+2025-09-24T08:52:26.936084+03:30 admin-HP gdm-password]: pam_unix(gdm-password:session): session opened for user parsaimani(uid=1001) by parsaimani(uid=0)
+2025-09-24T08:52:26.949663+03:30 admin-HP systemd-logind[783]: New session 2 of user parsaimani.
+2025-09-24T08:52:26.966708+03:30 admin-HP (systemd): pam_unix(systemd-user:session): session opened for user parsaimani(uid=1001) by parsaimani(uid=0)
+2025-09-24T08:52:27.263363+03:30 admin-HP gdm-password]: gkr-pam: unlocked login keyring
+2025-09-24T08:52:27.745107+03:30 admin-HP gnome-keyring-daemon[3976]: discover_other_daemon: 1
+2025-09-24T08:52:27.745178+03:30 admin-HP gnome-keyring-daemon[3765]: The PKCS#11 component was already initialized
+2025-09-24T08:52:27.745661+03:30 admin-HP gnome-keyring-daemon[3765]: The Secret Service was already initialized
+2025-09-24T08:52:27.745784+03:30 admin-HP gnome-keyring-daemon[3981]: discover_other_daemon: 1
+2025-09-24T08:52:27.745812+03:30 admin-HP gnome-keyring-daemon[3980]: discover_other_daemon: 1
+2025-09-24T08:52:29.036460+03:30 admin-HP polkitd[756]: Registered Authentication Agent for unix-session:2 (system bus name :1.109 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-09-24T08:52:29.985062+03:30 admin-HP gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-09-24T08:52:29.998293+03:30 admin-HP systemd-logind[783]: Session c1 logged out. Waiting for processes to exit.
+2025-09-24T08:52:30.030827+03:30 admin-HP polkitd[756]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-09-24T08:52:30.042977+03:30 admin-HP systemd-logind[783]: Removed session c1.
+2025-09-24T08:52:39.506995+03:30 admin-HP (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-09-24T08:53:30.884586+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T08:53:30.885551+03:30 admin-HP pkexec[4805]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-24T08:55:01.223417+03:30 admin-HP CRON[6096]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T08:55:01.226095+03:30 admin-HP CRON[6096]: pam_unix(cron:session): session closed for user root
+2025-09-24T09:00:40.158948+03:30 admin-HP dbus-daemon[746]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-09-24T09:01:18.662357+03:30 admin-HP sudo: pam_unix(sudo:auth): authentication failure; logname=parsaimani uid=1001 euid=0 tty=/dev/pts/2 ruser=parsaimani rhost=  user=parsaimani
+2025-09-24T09:01:28.378703+03:30 admin-HP sudo: pam_unix(sudo:auth): conversation failed
+2025-09-24T09:01:28.379104+03:30 admin-HP sudo: pam_unix(sudo:auth): auth could not identify password for [parsaimani]
+2025-09-24T09:01:28.379303+03:30 admin-HP sudo: parsaimani : 1 incorrect password attempt ; TTY=pts/2 ; PWD=/home/parsaimani/ELK ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-24T09:01:36.400342+03:30 admin-HP sudo: parsaimani : TTY=pts/2 ; PWD=/home/parsaimani/ELK ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-24T09:01:36.400875+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T09:01:36.430707+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-24T09:05:01.239496+03:30 admin-HP CRON[14675]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T09:05:01.247157+03:30 admin-HP CRON[14675]: pam_unix(cron:session): session closed for user root
+2025-09-24T09:05:29.932589+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T09:05:29.933412+03:30 admin-HP pkexec[14718]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-09-24T09:15:01.265595+03:30 admin-HP CRON[15988]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T09:15:01.272418+03:30 admin-HP CRON[15988]: pam_unix(cron:session): session closed for user root
+2025-09-24T09:17:01.281914+03:30 admin-HP CRON[16275]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T09:17:01.285319+03:30 admin-HP CRON[16275]: pam_unix(cron:session): session closed for user root
+2025-09-24T09:25:01.297190+03:30 admin-HP CRON[20758]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T09:25:01.304339+03:30 admin-HP CRON[20758]: pam_unix(cron:session): session closed for user root
+2025-09-24T09:30:01.314108+03:30 admin-HP CRON[24938]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T09:30:01.321925+03:30 admin-HP CRON[24938]: pam_unix(cron:session): session closed for user root
+2025-09-24T09:35:01.323470+03:30 admin-HP CRON[27553]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T09:35:01.332224+03:30 admin-HP CRON[27553]: pam_unix(cron:session): session closed for user root
+2025-09-24T09:45:01.339294+03:30 admin-HP CRON[34491]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T09:45:01.346779+03:30 admin-HP CRON[34491]: pam_unix(cron:session): session closed for user root
+2025-09-24T09:55:01.360194+03:30 admin-HP CRON[41125]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T09:55:01.367951+03:30 admin-HP CRON[41125]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:05:01.378320+03:30 admin-HP CRON[42676]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T10:05:01.380710+03:30 admin-HP CRON[42676]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:15:01.390162+03:30 admin-HP CRON[46733]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T10:15:01.395309+03:30 admin-HP CRON[46733]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:17:01.406173+03:30 admin-HP CRON[49159]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T10:17:01.413498+03:30 admin-HP CRON[49159]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:25:01.422616+03:30 admin-HP CRON[52370]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T10:25:01.424859+03:30 admin-HP CRON[52370]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:30:01.434327+03:30 admin-HP CRON[52593]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T10:30:01.438909+03:30 admin-HP CRON[52593]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:35:01.446926+03:30 admin-HP CRON[54773]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T10:35:01.454942+03:30 admin-HP CRON[54773]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:45:01.465882+03:30 admin-HP CRON[58044]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T10:45:01.469933+03:30 admin-HP CRON[58044]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:46:24.549669+03:30 admin-HP sudo: parsaimani : TTY=pts/2 ; PWD=/home/parsaimani/ELK/logstash_pipeline ; USER=root ; COMMAND=/usr/bin/vim .
+2025-09-24T10:46:24.564278+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T10:46:37.567943+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-24T10:47:13.615109+03:30 admin-HP polkitd[756]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-09-24T10:47:17.688200+03:30 admin-HP polkitd[756]: Operator of unix-session:2 successfully authenticated as unix-user:parsaimani to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:58666:691214 [/bin/bash /usr/local/bin/hiddify-root] (owned by unix-user:parsaimani)
+2025-09-24T10:47:17.690687+03:30 admin-HP pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T10:47:17.691632+03:30 admin-HP pkexec[58670]: parsaimani: Executing command [USER=root] [TTY=unknown] [CWD=/home/parsaimani] [COMMAND=/usr/bin/env DISPLAY=:0 WAYLAND_DISPLAY=wayland-0 XDG_SESSION_TYPE=wayland XDG_RUNTIME_DIR=/run/user/1001 hiddify]
+2025-09-24T10:55:01.480211+03:30 admin-HP CRON[59050]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T10:55:01.482653+03:30 admin-HP CRON[59050]: pam_unix(cron:session): session closed for user root
+2025-09-24T10:55:31.975557+03:30 admin-HP sudo: parsaimani : TTY=pts/2 ; PWD=/home/parsaimani/ELK ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-09-24T10:55:31.981986+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T10:55:32.012609+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-24T10:55:56.810434+03:30 admin-HP sudo: parsaimani : TTY=pts/2 ; PWD=/home/parsaimani/ELK ; USER=root ; COMMAND=/usr/sbin/ufw status
+2025-09-24T10:55:56.811052+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T10:55:56.867349+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-24T11:05:01.496477+03:30 admin-HP CRON[59951]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-24T11:05:01.503571+03:30 admin-HP CRON[59951]: pam_unix(cron:session): session closed for user root
+2025-09-24T11:11:37.941698+03:30 admin-HP sudo: parsaimani : TTY=pts/2 ; PWD=/home/parsaimani/ELK ; USER=root ; COMMAND=/usr/bin/vim .
+2025-09-24T11:11:37.942189+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T11:12:00.352739+03:30 admin-HP sudo: pam_unix(sudo:session): session closed for user root
+2025-09-24T11:12:37.234966+03:30 admin-HP sudo: parsaimani : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su -
+2025-09-24T11:12:37.235493+03:30 admin-HP sudo: pam_unix(sudo:session): session opened for user root(uid=0) by parsaimani(uid=1001)
+2025-09-24T11:12:37.242507+03:30 admin-HP su[60346]: (to root) root on pts/3
+2025-09-24T11:12:37.243032+03:30 admin-HP su[60346]: pam_unix(su-l:session): session opened for user root(uid=0) by parsaimani(uid=0)

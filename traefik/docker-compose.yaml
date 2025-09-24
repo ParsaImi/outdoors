@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+  traefik:
+    image: traefik:v3.0
+    container_name: traefik
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8085:8085" # Traefik dashboard
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./traefik-data:/data
+      - ./traefik:/etc/traefik:ro
+      - ./certs:/certs:ro
+    networks:
+      - traefik
+
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+    environment:
+      # Database configuration (using SQLite by default)
+      - DB_TYPE=sqlite
+      - DB_SQLITE_DATABASE=/home/node/.n8n/database.sqlite
+
+      # n8n configuration
+      - N8N_HOST=n8n.myapp
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=https
+
+      # Security (change in production)
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=password
+
+      # Optional: Set timezone
+      - GENERIC_TIMEZONE=UTC
+    volumes:
+      - n8n-data:/home/node/.n8n
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external: true
+
+volumes:
+  n8n-data:
